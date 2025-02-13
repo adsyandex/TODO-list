@@ -22,11 +22,10 @@ todo-app/
 │   │   ├── task.go         # Логика для работы с задачами
 │   │   └── task_test.go    # Тесты для работы с задачами
 │   ├── storage/
-│   │   ├── file_storage.go # Логика для работы с файлом хранения
-│   │   └── storage.go      # Интерфейс хранения
-│   └── api/
-│       ├── handlers.go     # Обработчики HTTP-запросов
-│       └── routes.go       # Маршруты для Gin
+│      ├── file_storage.go # Логика для работы с файлом хранения
+│      └── storage.go      # Интерфейс хранения
+│—— menu/
+├     └──menu.go 
 ├── Dockerfile              # Dockerfile для контейнеризации приложения
 ├── docker-compose.yml      # Docker Compose для развертывания
 └── go.mod                  # Модуль Go
